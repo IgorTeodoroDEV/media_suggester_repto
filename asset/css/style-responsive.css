@@ -1,0 +1,71 @@
+@media (max-width: 412px) {
+    h2{
+        font-size: 18pt;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 100%;
+    }
+    .photo img{
+        background-image: url(https://i.pinimg.com/564x/ae/a8/09/aea809f2ebb9c212409685baa6c72e81.jpg);
+    }
+    .about-me{
+        margin: 1rem;
+        padding: 0px;
+    }
+    .about p{
+        margin-top: 0px;
+        text-align: justify;
+        font-size: 11pt;
+    }
+    .oculto{
+        display: none;
+    }
+    .row{
+        display: flex;
+    }
+    .music-spotify{
+        width: auto;
+    }
+    .font-Spotify{
+        width: auto;
+    }
+    .music> .music-head > h2{
+        font-size: 16pt;
+
+    }
+    .photo-me-view img{
+        max-width: 100%;
+    }
+    .about-me-infos{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+   .photo{
+    text-align: center;
+    justify-content: center;
+   }
+   .photo img{
+    max-width: 100%;
+   }
+    .name{
+        text-align: center;
+        margin-top: 80%;
+        background-color: rgba(255, 255, 255, 0.2)
+    }
+    .n
+    .photo-center{
+        text-align: center;
+        justify-content: center;
+    }
+    .nav{
+        justify-content: left;
+    }
+    .navbar-toggler-icon{
+        background-color: white;
+   
+    }
+}
