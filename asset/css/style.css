@@ -203,15 +203,14 @@ h3{
     background-color: #363636;
 }
 .music-spotify{
-    height: 6vh;
     color: #c5c3c3;
     font-family: 'Avenir', sans-serif;
+    max-width: auto;
 }
 .music-spotify > p{
     font-family: Arial, Helvetica, sans-serif;
     color: #efefef;
-    font-size: 16pt;
-    margin-bottom: 1px;
+    font-size: 10pt;
     margin-left: 8rem;
     margin-right: 8rem;
 }
@@ -219,7 +218,6 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     color: #efefef;
     font-size: 20pt;
-    margin-top: 20rem;
     margin-left: 8rem;
     margin-right: 8rem;
 }
@@ -230,13 +228,11 @@ h3{
 }
 
 .music-hover{
+    width: auto;
     padding: 1rem;
-    margin-top: 2rem;
     margin-bottom: 1rem;
 }
-.music-hover > p{
-    margin-bottom: 1rem;
-}
+
 .botao   {
     background-color: #a70000; /* Vermelho */
     border: none;
